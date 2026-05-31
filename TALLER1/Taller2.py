@@ -54,4 +54,5 @@ plt.title('Ajuste Exponencial del Crecimiento de Planta\nh(t) = a · e^(bt)', fo
 plt.legend(fontsize=10)
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
+plt.savefig(r'D:\OPTI\SEM9\Resultados\taller2_optimizacion.png', dpi=150, bbox_inches='tight')
 plt.show()
